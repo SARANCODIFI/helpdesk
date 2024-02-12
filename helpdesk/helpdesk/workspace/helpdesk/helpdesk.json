@@ -1,0 +1,213 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"zz1i28Zuh7\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"3LhOfbvKSE\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Create Ticket\",\"col\":3}},{\"id\":\"UFOkrNOc11\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Customer Tickets\",\"col\":3}},{\"id\":\"Z6VuP81iEz\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Internal Tickets\",\"col\":3}},{\"id\":\"U_5rG7esbL\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"CTULyx_kih\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Recent High Priority Tickets (This Week)\",\"col\":5}},{\"id\":\"TqJmDhVXjb\",\"type\":\"paragraph\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Helpdesk Configuration<br></span>\",\"col\":12}},{\"id\":\"KTA58cCd-e\",\"type\":\"card\",\"data\":{\"card_name\":\"Ticket Configuration\",\"col\":4}},{\"id\":\"QOH0kRUz3F\",\"type\":\"card\",\"data\":{\"card_name\":\"Agent Configuration\",\"col\":4}},{\"id\":\"VffoyREGcN\",\"type\":\"card\",\"data\":{\"card_name\":\"Report\",\"col\":4}},{\"id\":\"D0p_0DNQIO\",\"type\":\"card\",\"data\":{\"card_name\":\"Automation\",\"col\":4}}]",
+ "creation": "2022-09-17 11:48:26.825712",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "support",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "Helpdesk",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Agent Configuration",
+   "link_count": 2,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Agent",
+   "link_count": 0,
+   "link_to": "HD Agent",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Team",
+   "link_count": 0,
+   "link_to": "HD Team",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Automation",
+   "link_count": 2,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Notification Settings",
+   "link_count": 0,
+   "link_to": "Notification Settings",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Assignment Rule",
+   "link_count": 0,
+   "link_to": "Assignment Rule",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Ticket Configuration",
+   "link_count": 3,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Ticket Type",
+   "link_count": 0,
+   "link_to": "HD Ticket Type",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Support Policy",
+   "link_count": 0,
+   "link_to": "HD Service Level Agreement",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "General Settings",
+   "link_count": 0,
+   "link_to": "HD Settings",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Report",
+   "link_count": 2,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Ticket Summary",
+   "link_count": 0,
+   "link_to": "Ticket Summary",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Ticket Analytics",
+   "link_count": 0,
+   "link_to": "Ticket Analytics",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2024-02-06 17:58:31.056447",
+ "modified_by": "Administrator",
+ "module": "Helpdesk",
+ "name": "Helpdesk",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [
+  {
+   "document_type": "HD Ticket",
+   "label": "Recent High Priority Tickets (This Week)",
+   "quick_list_filter": "[[\"HD Ticket\",\"status\",\"=\",\"Open\",false],[\"HD Ticket\",\"priority\",\"=\",\"High\",false],[\"HD Ticket\",\"creation\",\"Timespan\",\"this week\",false]]"
+  }
+ ],
+ "roles": [
+  {
+   "role": "Administrator"
+  },
+  {
+   "role": "RM"
+  },
+  {
+   "role": "Department Agent - IT"
+  },
+  {
+   "role": "Customer Care"
+  },
+  {
+   "role": "Branch Care"
+  },
+  {
+   "role": "Partner"
+  },
+  {
+   "role": "Partner Care Agent"
+  },
+  {
+   "role": "Chola Admin"
+  },
+  {
+   "role": "Admin"
+  }
+ ],
+ "sequence_id": 2.0,
+ "shortcuts": [
+  {
+   "color": "Cyan",
+   "doc_view": "List",
+   "format": "Open",
+   "label": "Internal Tickets",
+   "link_to": "HD Ticket",
+   "stats_filter": "[[\"HD Ticket\",\"fsl_internal_ticket\",\"=\",1,false]]",
+   "type": "DocType"
+  },
+  {
+   "color": "Red",
+   "doc_view": "List",
+   "format": "Open",
+   "label": "Customer Tickets",
+   "link_to": "HD Ticket",
+   "stats_filter": "[[\"HD Ticket\",\"fsl_internal_ticket\",\"=\",0,false]]",
+   "type": "DocType"
+  },
+  {
+   "color": "Green",
+   "doc_view": "New",
+   "format": "New",
+   "label": "Create Ticket",
+   "link_to": "HD Ticket",
+   "stats_filter": "[]",
+   "type": "DocType"
+  }
+ ],
+ "title": "Helpdesk"
+}
